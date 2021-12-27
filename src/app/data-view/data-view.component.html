@@ -1,0 +1,9 @@
+<p>load-img works!</p>
+
+<button (click)="loadData()">
+Load image
+</button>
+<hr>
+<div id="container">
+<img src = "imgLoad" alt=" " [lazyLoad]="image$ | async">
+</div>
